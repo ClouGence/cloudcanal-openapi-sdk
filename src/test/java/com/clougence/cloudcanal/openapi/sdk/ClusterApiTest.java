@@ -9,7 +9,7 @@ import com.clougence.cloudcanal.openapi.sdk.common.UserProfile;
 /**
  * @author bucketli 2021/11/10 11:44:05
  */
-public class OpenTest {
+public class ClusterApiTest {
 
     @Test
     public void testListCluster() {

@@ -4,7 +4,7 @@
 
 The open api client sdk project for cloudcanal. By now , we have not yet publish it to MAVEN centre repository,you can install it in local MAVEN repository and use it.
 
-API include 4 parts
+API include 5 parts
 - cluster
 - consolejob
 - constant

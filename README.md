@@ -5,7 +5,7 @@
 
 此项目为 CloudCanal 产品开放 API 客户端 SDK。我们目前并没有将其发布到 MAVEN 中央仓库，所以你可以将其发布到本地仓库并依赖使用它。
 
-整个开放 API 分为 4 个部分
+整个开放 API 分为 5 个部分
 - cluster(集群)
 - consolejob(异步任务)
 - constant(常量)

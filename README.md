@@ -14,7 +14,9 @@
 
 #### Example
 
-- checkout the source , ClusterApiTest.testListCluster show the basic usage of OPEN API
+- 启动 CloudCanal 产品，确定控制台连接串
+- 将本仓库检出 , ClusterApiTest.testListCluster 展示了开放 API 基本使用
+- 根据 [API 文档](https://doc.clougence.com/docs/en/api_constant_cachevalueformats)，开发代码，调用相应 api 并使用
 
 ```
     @Test
@@ -34,8 +36,8 @@
 
 ### Contribute
 
-just checkout and follow the [API DOC](https://doc.clougence.com/docs/en/api_constant_cachevalueformats) to implement contents as below
+根据 [API 文档](https://doc.clougence.com/docs/en/api_constant_cachevalueformats) 实现如下所描述的内容
 
-- we need all api RequestDO and ResponseDO implementation, DO's class name need in line with api name
-- we need deserialize data from Response to ResponseDO logic
-- we need https communication protocol for client
+- 我们需要实现所有 api 对应的 RequestDO 和 ResponseDO, DO 的类名需要和 api 名字对应
+- 我们需要将 json 字符串反序列化为对应 DO 的逻辑
+- 我们需要实现 https 客户端通信协议

@@ -13,7 +13,9 @@ API include 4 parts
 
 #### Example
 
+- start CloudCanal , confirm the console addr
 - checkout the source , ClusterApiTest.testListCluster show the basic usage of OPEN API
+- according [API DOC](https://doc.clougence.com/docs/en/api_constant_cachevalueformats), write code to use it
 
 ```
     @Test

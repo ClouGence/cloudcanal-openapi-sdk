@@ -1,7 +1,7 @@
 # cloudcanal-openapi-sdk
 
 
-#### 简介
+### 简介
 
 此项目为 CloudCanal 产品开放 API 客户端 SDK。我们目前并没有将其发布到 MAVEN 中央仓库，所以你可以将其发布到本地仓库并依赖使用它。
 
@@ -12,7 +12,7 @@
 - datajob(数据任务)
 - datasource(数据源)
 
-#### Example
+### 案例
 
 - 启动 CloudCanal 产品，确定控制台连接串
 - 将本仓库检出 , ClusterApiTest.testListCluster 展示了开放 API 基本使用
@@ -34,7 +34,7 @@
     }
 ```
 
-### Contribute
+### 如何贡献
 
 根据 [API 文档](https://doc.clougence.com/docs/en/api_constant_cachevalueformats) 实现如下所描述的内容
 

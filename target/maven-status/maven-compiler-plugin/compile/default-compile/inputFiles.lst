@@ -1,0 +1,11 @@
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/UserProfile.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/model/HttpResponse.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/CcClient.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/model/ErrorType.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/OpenApiSigner.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/model/HttpMessage.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/util/Base64Helper.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/model/FormatType.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/exception/ClientException.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/util/ParameterHelper.java
+/Users/zylicfc/source/product/cloudcanal/cloudcanal-openapi-sdk/src/main/java/com/clougence/cloudcanal/openapi/sdk/common/model/MethodType.java

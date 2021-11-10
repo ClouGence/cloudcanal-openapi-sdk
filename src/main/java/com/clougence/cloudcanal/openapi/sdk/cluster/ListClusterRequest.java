@@ -1,6 +1,6 @@
 package com.clougence.cloudcanal.openapi.sdk.cluster;
 
-import com.google.gson.Gson;
+import com.clougence.cloudcanal.openapi.sdk.common.JsonRequest;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +9,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class ListClusterRequest {
+public class ListClusterRequest extends JsonRequest {
 
     private String cloudOrIdcName;
 
@@ -18,8 +18,4 @@ public class ListClusterRequest {
     private String clusterNameLike;
 
     private String region;
-
-    public String toJson() {
-        return new Gson().toJson(this);
-    }
 }

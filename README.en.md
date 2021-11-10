@@ -1,36 +1,40 @@
 # cloudcanal-openapi-sdk
 
 #### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
 
-#### Software Architecture
-Software architecture description
+The open api client sdk project for cloudcanal. By now , we have not yet publish it to MAVEN centre repository,you can install it in local MAVEN repository and use it.
 
-#### Installation
+API include 4 parts
+- cluster
+- consolejob
+- constant
+- datajob
+- datasource
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### Example
 
-#### Instructions
+- checkout the source , ClusterApiTest.testListCluster show the basic usage of OPEN API
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```
+    @Test
+    public void testListCluster() {
+        try {
+            UserProfile profile = new UserProfile("127.0.0.1:8111", "your ak from cloudcanal", "your sk from cloudcanal");
+            CcClient client = profile.genClient();
+            ListClusterRequest request = new ListClusterRequest();
+            String paramStr = request.toJson();
+            String result = client.doJsonPost("/cloudcanal/console/api/v1/openapi/cluster/listclusters", paramStr);
+            System.out.println(result);
+        } catch (Exception e) {
+            throw new RuntimeException("api failed.", e);
+        }
+    }
+```
 
-#### Contribution
+### Contribute
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+just checkout and follow the [API DOC](https://doc.clougence.com/docs/en/api_constant_cachevalueformats) to implement contents as below
 
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- we need all api RequestDO and ResponseDO implementation, DO's class name need in line with api name
+- we need deserialize data from Response to ResponseDO logic
+- we need https communication protocol for client

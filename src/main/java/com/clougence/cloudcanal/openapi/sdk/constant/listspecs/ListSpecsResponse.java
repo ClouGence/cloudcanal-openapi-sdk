@@ -1,4 +1,4 @@
-package com.clougence.cloudcanal.openapi.sdk.constant;
+package com.clougence.cloudcanal.openapi.sdk.constant.listspecs;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.clougence.cloudcanal.openapi.sdk.constant;
+package com.clougence.cloudcanal.openapi.sdk.constant.listspecs;
 
 import com.clougence.cloudcanal.openapi.sdk.common.JsonRequest;
 import lombok.Getter;
